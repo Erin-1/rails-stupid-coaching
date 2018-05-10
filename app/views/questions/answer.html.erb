@@ -1,0 +1,16 @@
+<h1>Questions#answers</h1>
+<p>Find me in app/views/questions/answers.html.erb</p>
+
+
+<h1>your question was;</h1>
+<p> <%= @question %> </p>
+<p> <%= @answer %> </p>
+
+<%=link_to 'ask', '/ask', class: "btn btn-warning" %>
+
+
+
+
+<%= link_to '/ask' do %>
+<i class="fas fa-smile"></i>
+<% end %>
